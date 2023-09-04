@@ -55,6 +55,9 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+    override fun onBackPressed() {
+
+    }
 }
 
 @OptIn(ExperimentalMaterial3Api::class)
